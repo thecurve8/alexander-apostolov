@@ -4,6 +4,19 @@ import styled from 'styled-components';
 import { email } from '@config';
 import { Side } from '@components';
 
+/*
+Email component
+
+propTypes
+=========
+isHome: PropTypes.bool
+    Whether we are on the home page
+
+Side element
+    SideLinkWrapper
+        link to email
+ */
+
 const StyledLinkWrapper = styled.div`
   display: flex;
   flex-direction: column;

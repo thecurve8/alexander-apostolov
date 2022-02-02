@@ -4,6 +4,24 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { loaderDelay } from '@utils';
 
+/*
+Side component
+
+propTypes
+=========
+children: PropTypes.node.isRequired
+    Children component to be placed in the Side component
+isHome: PropTypes.bool
+    Whether we are on the home page
+orientation: PropTypes.string
+    Orientation of the Side element
+
+
+Side element
+    SideLinkWrapper
+        link to email
+ */
+
 const StyledSideElement = styled.div`
   width: 40px;
   position: fixed;

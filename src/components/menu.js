@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { navLinks } from '@config';
 import { KEY_CODES } from '@utils';
-import { useOnClickOutside } from '@hooks';
+import { useOnClickOutside } from '@src/hooks';
 
 const StyledMenu = styled.div`
   display: none;

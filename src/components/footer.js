@@ -4,6 +4,16 @@ import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
 
+/*
+Footer component with icons of different links from social media
+
+propTypes
+=========
+githubInfo: PropTypes.object
+    Children component to be placed in the Side component
+
+ */
+
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;

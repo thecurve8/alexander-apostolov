@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { loaderDelay } from '@utils';
 
 /*
-Side component
+Side component with a transition if on the home page
 
 propTypes
 =========
@@ -14,12 +14,9 @@ children: PropTypes.node.isRequired
 isHome: PropTypes.bool
     Whether we are on the home page
 orientation: PropTypes.string
-    Orientation of the Side element
+    Orientation of the Side element (left or other for right)
 
 
-Side element
-    SideLinkWrapper
-        link to email
  */
 
 const StyledSideElement = styled.div`
@@ -48,6 +45,7 @@ const Side = ({ children, isHome, orientation }) => {
         if (!isHome) {
             return;
         }
+        //sets isMounted var to true after loaderDelay
         const timeout = setTimeout(() => setIsMounted(true), loaderDelay);
         return () => clearTimeout(timeout);
     }, []);

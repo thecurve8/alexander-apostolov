@@ -5,6 +5,19 @@ import anime from 'animejs';
 import styled from 'styled-components';
 import { IconLoader } from '@components/icons';
 
+/*
+Loader component, loads the logo
+
+propTypes
+=========
+finishLoading: PropTypes.func.isRequired
+    Function: Whether the page finished loading
+
+Side element
+    StyledSocialList
+        list of social media
+ */
+
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
   position: fixed;

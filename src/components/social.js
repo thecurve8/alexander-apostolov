@@ -5,6 +5,19 @@ import { socialMedia } from '@config';
 import { Side } from '@components';
 import { Icon } from '@components/icons';
 
+/*
+Social component
+
+propTypes
+=========
+isHome: PropTypes.bool
+    Whether we are on the home page
+
+Side element
+    StyledSocialList
+        list of social media
+ */
+
 const StyledSocialList = styled.ul`
   display: flex;
   flex-direction: column;

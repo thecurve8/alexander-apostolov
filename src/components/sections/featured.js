@@ -1,2 +1,2 @@
-const Featured = () => {}
+const Featured = () => {return null}
 export default Featured;

@@ -4,6 +4,19 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import { GlobalStyle, theme } from '@styles';
 
+/*
+Layout component
+Main page of the website.
+
+Arguments
+=========
+children: PropTypes.node.isRequired
+    children component to put in the layout
+location: PropTypes.object.isRequired
+    location of the layout
+
+ */
+
 // https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
 if (typeof window !== 'undefined') {
     // eslint-disable-next-line global-require

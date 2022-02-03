@@ -114,17 +114,6 @@ const StyledPic = styled.div`
 `;
 
 const About = () => {
-    /*const data = useStaticQuery(graphql`
-    query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me_serious_profile.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-    }
-  `);*/
     const data = useStaticQuery(graphql`
     query {
         file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me_serious.jpg" }) {

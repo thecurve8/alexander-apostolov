@@ -7,7 +7,7 @@ const IconLogo = () => (
         <path
             id="Shape"
             stroke="currentColor"
-            strokeWidth="5"
+            stroke-width="5"
             strokeLinecap="round"
             strokeLinejoin="round"
             d="M 45.76,2.57

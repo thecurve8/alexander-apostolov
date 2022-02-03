@@ -18,6 +18,20 @@ module.exports = {
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`, // Needed for dynamic images
+        //manifest needs to be before offline!
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Alexander Apostolov`,
+                short_name: `A. Apostolov`,
+                start_url: `/`,
+                icon: `src/images/icon.svg`,
+                description: "Alexander Apostolov - personal website",
+                background_color: `#0a192f`,
+                theme_color: `#0a192f`,
+                display: `standalone`,
+            },
+        },
         `gatsby-plugin-offline`,
         'gatsby-plugin-robots-txt',
         "gatsby-plugin-sitemap",

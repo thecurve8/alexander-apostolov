@@ -17,19 +17,32 @@ const StyledMainContainer = styled.main`
   counter-reset: section;
 `;
 
-const IndexPage = ({ location }) => (
-    <Layout location={location}>
-      <StyledMainContainer className="fillHeight">
-        <Hero />
-        <About />
-        <Education />
-        <Featured />
-        <Projects />
-        <Jobs />
-        <Contact />
-      </StyledMainContainer>
-    </Layout>
-);
+const IndexPage = ({ location }) => {
+    const [darkMode, setDarkMode] = React.useState(false)
+    const toggleDarkMode = () => {
+        setDarkMode(prev => !prev)
+    }
+    return (
+    <div className={darkMode ? 'app dark' : 'app'}>
+        <Layout location={location}>
+            <StyledMainContainer className="fillHeight">
+
+                <Hero/>
+
+                    <button onClick={toggleDarkMode}>
+                        toggle dark mode
+                    </button>
+
+                <About/>
+                <Education/>
+                <Featured/>
+                <Projects/>
+                <Jobs/>
+                <Contact/>
+            </StyledMainContainer>
+        </Layout>
+    </div>
+)};
 
 
 IndexPage.propTypes = {

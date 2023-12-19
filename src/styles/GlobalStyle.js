@@ -5,7 +5,30 @@ import PrismStyles from './PrismStyles';
 
 const GlobalStyle = createGlobalStyle`
   ${Fonts};
-
+  .app {
+      --text-color: #0a192f;
+      --background-color: #8892b0;
+      
+      color: var(--text-color);
+      background-color: var(--background-color);
+      
+    }
+    
+  .app.dark {
+    --text-color: #8892b0;
+    --background-color: #0a192f;
+    
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100, 255, 218, 0.1);
+  }
+    
   :root {
     --dark-navy: #020c1b;
     --navy: #0a192f;
@@ -59,9 +82,9 @@ const GlobalStyle = createGlobalStyle`
   *:after {
     box-sizing: inherit;
   }
-
+  
   ::selection {
-    background-color: var(--slate);
+    background-color: var(--text-color);
     color: var(--lightest-slate);
   }
 
@@ -72,8 +95,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
-    color: var(--slate);
+    
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
     line-height: 1.3;

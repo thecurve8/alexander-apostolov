@@ -141,7 +141,9 @@ const About = () => {
                     <div>
                         <p>
                             Hello! I'm Alexander, a recent graduate from the Data Science Master from <a href="https://www.epfl.ch/en/">EPFL</a> that I completed with the generous support of the <a href="https://www.epfl.ch/education/studies/en/financing-study/grants/excellence-fellowships/">
-                            EPFL Excellence Fellowship</a> and for which I was awarded the prize for the best GPA among all graduating students.
+                            EPFL Excellence Fellowship</a> and for which I was awarded the <a href="https://www.epfl.ch/schools/ic/fr/a-propos/prix-recompenses/ba-ma-fr/">prize for the best GPA among all graduating students</a>. 
+			    My Master ended by my appointment as a visiting student researcher in the <a href="https://helix.stanford.edu/">Helix lab</a> led by Pr. Russ Altman
+			    at <a href="https://www.stanford.edu/">Stanford</a>.
                         </p>
 
                         <p>

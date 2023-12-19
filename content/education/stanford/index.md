@@ -11,6 +11,6 @@ relevant_courses:
 showInEducation: true
 ---
 
-Developed during my Master Thesis pharmacogenetic models to predict drug dose and side effects from whole genome sequencing data in Professor Russ Altman's lab.
+Developed during my Master Thesis pharmacogenetic models to predict drug dose and side effects from whole genome sequencing data in [Professor Russ Altman's lab](https://helix.stanford.edu/).
 
-Thesis project supervised by Pr. Russ Altman and Pr. Jacques Fellay, I got the <strong>best possible grade of 6.00/6.00</strong>.
+Thesis project supervised by Pr. R. Altman and Pr. J. Fellay, I got the <strong>best possible grade of 6.00</strong>.

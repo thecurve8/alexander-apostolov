@@ -140,8 +140,8 @@ const About = () => {
                 <StyledText>
                     <div>
                         <p>
-                            Hello! I'm Alexander, a Data Science Master student from <a href="https://www.epfl.ch/en/">EPFL</a> based in Switzerland with the generous support of the <a href="https://www.epfl.ch/education/studies/en/financing-study/grants/excellence-fellowships/">
-                            EPFL Excellence Fellowship</a>.
+                            Hello! I'm Alexander, a recent graduate from the Data Science Master from <a href="https://www.epfl.ch/en/">EPFL</a> that I completed with the generous support of the <a href="https://www.epfl.ch/education/studies/en/financing-study/grants/excellence-fellowships/">
+                            EPFL Excellence Fellowship</a> and for which I was awarded the prize for the best GPA among all graduating students.
                         </p>
 
                         <p>
@@ -151,9 +151,11 @@ const About = () => {
                         </p>
 
                         <p>
-                            After getting my Bachelor's degree, I worked at the <a href="https://www.icrc.org/en">
+			    After getting my Master I started working as a Data Scientist for <a href="https://bridgebio.com/">
+                            BridgeBio</a> for a collaboration project with Stanford.
+                            Previously, I have worked at the <a href="https://www.rolex.com/en">Rolex</a>, the <a href="https://www.oracle.com/">Oracle</a>, and the <a href="https://www.icrc.org/en">
                             International Committee of the Red Cross</a> where I applied my academical knowledge
-                            in the humanitarian field with teams of various size and colleagues with different backgrounds.
+                            in the various field with teams of various size and colleagues with different backgrounds.
                             I have language skills and international experience that tell I can take
                             assignments in different environments.
                         </p>

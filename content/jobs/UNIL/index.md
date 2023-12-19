@@ -4,7 +4,7 @@ title: 'Teaching assistant'
 company: 'University of Lausanne'
 company_accronym: 'UNIL'
 location: 'Lausanne, Switzerland'
-range: 'February 2021 - current'
+range: 'February 2021 - July 2021'
 url: 'https://www.unil.ch/index.html'
 ---
 

@@ -1,7 +1,7 @@
 //General configs used across files
 
 module.exports = {
-    email: 'alexander.apostolov@epfl.ch',
+    email: 'alexander.m.apostolov@gmail.com',
 
     socialMedia: [
         {
